@@ -48,36 +48,36 @@ It supports **user authentication**, **friend requests**, **posts**, **comments*
 
 ## 📂 Folder Structure
 
-project-root/
-├── controller/
-│ ├── user.controller.js
-│ ├── post.controller.js
-│ ├── comment.controller.js
-│ ├── friendship.controller.js
-│ └── reaction.controller.js
-│
-├── middleware/
-│ ├── verifyToken.js
-│ ├── user_validation.js
-│ ├── post_validation.js
-│ ├── comment_validation.js
-│ ├── reaction_validation.js
-│ ├── friendship_validation.js
-│ └── user_image_validation.js
-│
-├── routes/
-│ ├── user.route.js
-│ ├── post.route.js
-│ ├── comment.route.js
-│ ├── friend.route.js
-│ └── reaction.route.js
-│
-├── utils/
-│ └── httpStatusText.js
-│
-├── .env
-├── server.js
-└── package.json
+   project-root/
+   ├── controller/
+   │ ├── user.controller.js
+   │ ├── post.controller.js
+   │ ├── comment.controller.js
+   │ ├── friendship.controller.js
+   │ └── reaction.controller.js
+   │
+   ├── middleware/
+   │ ├── verifyToken.js
+   │ ├── user_validation.js
+   │ ├── post_validation.js
+   │ ├── comment_validation.js
+   │ ├── reaction_validation.js
+   │ ├── friendship_validation.js
+   │ └── user_image_validation.js
+   │
+   ├── routes/
+   │ ├── user.route.js
+   │ ├── post.route.js
+   │ ├── comment.route.js
+   │ ├── friend.route.js
+   │ └── reaction.route.js
+   │
+   ├── utils/
+   │ └── httpStatusText.js
+   │
+   ├── .env
+   ├── server.js
+   └── package.json
 
 ---
 
