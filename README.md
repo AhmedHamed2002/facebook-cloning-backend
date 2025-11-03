@@ -79,7 +79,7 @@ It supports **user authentication**, **friend requests**, **posts**, **comments*
    ├── .env
    ├── server.js
    └── package.json
-
+ ```
 ---
 
 ## ⚙️ Installation & Setup
