@@ -48,6 +48,7 @@ It supports **user authentication**, **friend requests**, **posts**, **comments*
 
 ## 📂 Folder Structure
 
+   ```bash
    project-root/
    ├── controller/
    │ ├── user.controller.js
