@@ -9,7 +9,9 @@ app.use(express.json());
 app.use(
     cors({
         origin: [
-            "http://localhost:3000"
+            "http://localhost:3000",
+            "https://facebook-cloning-next.vercel.app/",
+            "https://facebook-cloning-backend.vercel.app"
         ],
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         credentials: true,
