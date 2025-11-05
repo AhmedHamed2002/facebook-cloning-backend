@@ -10,7 +10,7 @@ app.use(
     cors({
         origin: [
             "http://localhost:3000",
-            "https://facebook-cloning-next.vercel.app/",
+            "https://facebook-cloning-next.vercel.app",
             "https://facebook-cloning-backend.vercel.app"
         ],
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
