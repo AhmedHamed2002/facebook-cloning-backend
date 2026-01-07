@@ -11,7 +11,7 @@ app.use(
         origin: [
             "http://localhost:3000",
             "https://facebook-cloning-next.vercel.app",
-            "https://lvxin-khaki.vercel.app" ,
+            "https://lvxin-alpha.vercel.app" ,
             "https://facebook-cloning-backend.vercel.app"
         ],
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
